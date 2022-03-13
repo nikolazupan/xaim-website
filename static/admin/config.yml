@@ -10,7 +10,6 @@ collections:
     label: "News"  
     folder: "content/news"  
     slug: "{{year}}-{{month}}-{{slug}}"
-    path: "{{slug}}/index"
     create: true  
     fields: 
       - { label: "Title", name: "title", widget: "string" }
