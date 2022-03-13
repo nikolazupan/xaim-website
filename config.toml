@@ -4,6 +4,9 @@ title = "xAIM"
 summaryLength = "20"
 
 [params]
+# header
+masters_link = "https://www.nytimes.com/games/wordle/index.html"
+
 # hero
 hero_title ="eXplainable Artificial Intelligence in Healthcare Management"
 hero_sub_title ="A Connecting Europe Facility in Telecom project INEA/CEF/ICT/A2020/2276680"
@@ -24,8 +27,8 @@ partners_sub_title = ""
 # contact
 contact_title ="Contact Us"
 location = "Via San Felice 5, 27100 Pavia, Italy"
-email = "mariachiara.demartini@unipv.it"
-phone_number = "+39.0382.986201"
+email = "info@xaim.eu"
+phone_number = "/"
 
 # newsletter
 newsletter_title = "Our Newsletter"
