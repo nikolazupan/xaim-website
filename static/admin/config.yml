@@ -10,7 +10,7 @@ collections:
     label: "News"  
     folder: "content/news"  
     slug: "{{year}}-{{month}}-{{slug}}"
-    create: true  
+    create: false  
     fields: 
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
@@ -21,14 +21,21 @@ collections:
   - name: "faq" 
     label: "Frequently Asked Questions"  
     folder: "content/faq"  
-    create: true  
+    create: false   
     fields: 
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "project" 
     label: "Project"  
     folder: "content/project"  
-    create: true  
+    create: false   
     fields: 
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+  - name: "masters-programme" 
+    label: "Masters Programme"  
+    folder: "content/masters-programme"  
+    create: false   
+    fields: 
+      - { label: "Title", name: "title", widget: "string" }
+
