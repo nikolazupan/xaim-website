@@ -11,7 +11,7 @@ collections:
     label: "News"  
     folder: "content/news"  
     slug: "{{year}}-{{month}}-{{slug}}"
-    create: false  
+    create: true  
     fields: 
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
